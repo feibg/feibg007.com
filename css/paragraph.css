@@ -1,0 +1,16 @@
+.paragraph{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+    z-index: 10;
+}
+.paragraph .paragraphTitle{
+    font-size: 80px;
+}
+.paragraph .paragraphText{
+    font-size: 30px;
+}
