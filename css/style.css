@@ -172,8 +172,8 @@ body{
         left: 0;
     }
 }
-.whoAmI{
-    position: absolute;
+.paragraph{
+    position: relative;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     top: 300px;
@@ -182,25 +182,9 @@ body{
     color: var(--text-color);
     z-index: 10;
 }
-.whoAmI .whoAmITitle{
+.paragraph .paragraphTitle{
     font-size: 80px;
 }
-.whoAmI .whoAmIText{
-    font-size: 30px;
-}
-.myProjects{
-    position: absolute;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    top: 800px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--text-color);
-    z-index: 10;
-}
-.myProjects .myProjectsTitle{
-    font-size: 80px;
-}
-.myProjects .myProjectsText{
+.paragraph .paragraphText{
     font-size: 30px;
 }
