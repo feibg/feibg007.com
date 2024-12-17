@@ -4,7 +4,7 @@
     --background-color: rgb(10, 10, 10);
     --background-animation-color: rgba(255, 255, 255, 0.2);
     --menu-color: black;
-    --menu-hover-color: linear-gradient(to right, rgb(60, 60, 60), rgb(10, 10, 10));
+    --menu-hover-color: linear-gradient(to right, rgb(60, 60, 60), rgb(30, 30, 30));
     --menu-press-color: linear-gradient(to right, rgb(100, 100, 100), rgb(20, 20, 20));
     --button-color: rgb(30, 30, 30);
     --text-color: rgb(240, 240, 240);
@@ -14,7 +14,7 @@
     --background-color: rgb(245, 245, 245);
     --background-animation-color: rgba(0, 0, 0, 0.2);
     --menu-color: white;
-    --menu-hover-color: linear-gradient(to right, rgb(195, 195, 195), rgb(245, 245, 245));
+    --menu-hover-color: linear-gradient(to right, rgb(195, 195, 195), rgb(225, 225, 225));
     --menu-press-color: linear-gradient(to right, rgb(155, 155, 155), rgb(235, 235, 235));
     --button-color: rgb(225, 225, 225);
     --text-color: rgb(15, 15, 15);
