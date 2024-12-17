@@ -1,0 +1,58 @@
+.titleBackground{
+    height: 300px;
+}
+.title{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+    letter-spacing: 10px;
+    cursor: crosshair;
+    z-index: 10;
+}
+.title::before, .title::after{
+    content: 'Feibg';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.title:hover::before{
+    animation: glitch 0.3s linear infinite;
+    color: #e91e63;
+    z-index: -2;
+}
+.title:hover::after{
+    animation: glitch 0.3s linear infinite reverse;
+    color: #2196f3;
+    z-index: -1;
+}
+@keyframes glitch{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    20%{
+        top: -5px;
+        left: -5px;
+    }
+    40%{
+        top: 5px;
+        left: 5px;
+    }
+    60%{
+        top: -5px;
+        left: 5px;
+    }
+    80%{
+        top: 5px;
+        left: -5;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
